@@ -20,15 +20,16 @@ body,.nama-section{
     align-items: center;
     background-image: url("images/background1.jpg");
     background-size: cover;
-    background-position: center bottom 70% ;
-    width: 440px;
-    height: 480px;
+    background-position: center top ;
+    max-width: 575px;
+    width: 60%;
+    height: 550px;
     
 }
 .contents{
     margin-left: 1rem;
     background-color:rgba(14, 13, 13, 0.208);
-    width: 30%;
+    width: 50%;
     height: 40%;
     display: flex;
     flex-direction: column;
@@ -52,7 +53,7 @@ body,.nama-section{
 
 }
 .contents>button{
-    width: 80%;
+    width: 10rem;
     cursor: pointer;
     border: none;
     padding:0.3rem 0.2rem;
@@ -95,7 +96,8 @@ body,.nama-section{
     color: white;
     font-weight: bold;
     margin-top: 00.01rem;
-    width: 440px;
+    width: 60%;
+    max-width: 575px;
     background-image: url("images/background1.jpg");
     background-size: cover;
     background-position: bottom center;
