@@ -1,0 +1,32 @@
+<html>
+ <head>
+     <title>Nama Counter</title>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+     <link rel="shortcut icon" href="images/favicon.jpeg" type="image/x-icon">
+     <link rel="stylesheet" href="main.css">
+ </head>
+ <body>
+     <h1 class="intro">Yogiramsuratkumar</h1>
+     <section class="nama-section">
+        <!-- <div><p>Nama Counter</p></div> -->
+        <div id="main-counter">
+            
+            <div class="contents">
+                <p class="count-prompt">Current Count </p>
+                <p id="count-el"> 0</p>
+                <button class="add-btn" onclick="increment()">ADD</button>
+                <button class="save-btn" onclick="save()">Save progress</button>
+                <button class="reset-btn" onclick="reset()">Reset</button>
+            </div>
+            
+        </div>
+        <div class="progress-sec">
+            <p class="progress-prompt">Saved progress: </p>
+            <p id="progress-el"></p>
+        </div>
+     </section>
+     <script src="main.js"></script>
+ </body>
+ 
+</html>
